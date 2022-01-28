@@ -3,7 +3,10 @@
   <component name="NewModuleRootManager">
     <content url="file://$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.9.4/build/netcoreapp2.1" />
     <content url="file://$USER_HOME$/.nuget/packages/microsoft.testplatform.testhost/16.9.4/build/netcoreapp2.1/Microsoft.TestPlatform.PlatformAbstractions.dll" />
-    <content url="file://$MODULE_DIR$/../.." />
+    <content url="file://$MODULE_DIR$/../..">
+      <excludeFolder url="file://$MODULE_DIR$/../../TestWebApp/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../TestWebApp/obj" />
+    </content>
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

@@ -23,11 +23,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a2d88a9-1e52-4901-9f8d-226930b63cb9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestWebApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestWebApp/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="1a2d88a9-1e52-4901-9f8d-226930b63cb9" name="Default Changelist" comment="Add Unit Tests">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestWebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestWebApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.TestWebApp/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestWebApp/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestWebApp.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TestWebApp.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestWebApp.UnitTests/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestWebApp.UnitTests/UnitTest1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestWebApp.UnitTests/bin/Debug/net5.0/TestWebApp.UnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestWebApp.UnitTests/bin/Debug/net5.0/TestWebApp.UnitTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestWebApp.UnitTests/bin/Debug/net5.0/TestWebApp.UnitTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestWebApp.UnitTests/bin/Debug/net5.0/TestWebApp.UnitTests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestWebApp.UnitTests/obj/Debug/net5.0/TestWebApp.UnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TestWebApp.UnitTests/obj/Debug/net5.0/TestWebApp.UnitTests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestWebApp.UnitTests/obj/Debug/net5.0/TestWebApp.UnitTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TestWebApp.UnitTests/obj/Debug/net5.0/TestWebApp.UnitTests.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +39,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/TestWebApp.UnitTests/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -171,8 +176,16 @@
       <workItem from="1643123054293" duration="1516000" />
       <workItem from="1643366024051" duration="1545000" />
       <workItem from="1643369379056" duration="592000" />
-      <workItem from="1643372583406" duration="800000" />
+      <workItem from="1643372583406" duration="1445000" />
     </task>
+    <task id="LOCAL-00001" summary="Add Unit Tests">
+      <created>1643373597006</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643373597006</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,6 +495,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Add Unit Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Unit Tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="678" y="441" key="#Path_mapping" timestamp="1643021358979">
@@ -521,14 +536,18 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="440" y="261" key="Rider.ProjectTemplateDialog.Size/0.0.1680.1050@0.0.1680.1050" timestamp="1643372781175" />
+    <state x="534" y="238" key="RollbackChangesDialog" timestamp="1643373495070">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="534" y="238" key="RollbackChangesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1643373495070" />
     <state x="349" y="161" key="SettingsEditor" timestamp="1643369394464">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="349" y="161" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1643369394464" />
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1643373464543">
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1643373598833">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1643373464543" />
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1643373598833" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1643118378890">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
