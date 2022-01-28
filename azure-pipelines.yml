@@ -20,6 +20,17 @@ variables:
   vmImageName: 'ubuntu-latest'
 
 stages:
+- stage: Test
+  displayName: Run Unit Tests
+  jobs:
+  - job: Testing
+    displayName: Unit Testing
+    steps:
+      - task: DotNetCoreCLI@2
+        inputs:
+          command: 'test'
+          projects: 'TestWebApp.UnitTests.csproj'
+          testRunTitle: 'Unit Test run'
 - stage: Build
   displayName: Build and push stage
   jobs:
@@ -28,11 +39,6 @@ stages:
     pool:
       vmImage: $(vmImageName)
     steps:
-    - task: DotNetCoreCLI@2
-      inputs:
-        command: 'test'
-        projects: '**/*.csproj'
-        testRunTitle: 'Unit Test run'
     - task: Docker@2
       displayName: Build and push an image to container registry
       inputs:
