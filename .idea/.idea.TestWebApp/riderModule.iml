@@ -8,12 +8,7 @@
     <content url="file://$USER_HOME$/.nuget/packages/nunit3testadapter/3.17.0/build/netcoreapp2.1/nunit.engine.api.dll" />
     <content url="file://$USER_HOME$/.nuget/packages/nunit3testadapter/3.17.0/build/netcoreapp2.1/nunit.engine.core.dll" />
     <content url="file://$USER_HOME$/.nuget/packages/nunit3testadapter/3.17.0/build/netcoreapp2.1/nunit.engine.dll" />
-    <content url="file://$MODULE_DIR$/../..">
-      <excludeFolder url="file://$MODULE_DIR$/../../TestWebApp/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../TestWebApp/obj" />
-      <excludeFolder url="file://$MODULE_DIR$/../../WebAppUnitTests/bin" />
-      <excludeFolder url="file://$MODULE_DIR$/../../WebAppUnitTests/obj" />
-    </content>
+    <content url="file://$MODULE_DIR$/../.." />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

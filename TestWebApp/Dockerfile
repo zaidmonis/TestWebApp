@@ -14,7 +14,7 @@ RUN dotnet build "TestWebApp.csproj" -c Release -o /out
 
 
 
-CMD dotnet /Users/zaid/RiderProjects/TestWebApp/TestWebApp/bin/Debug/net5.0/TestWebApp.dll
+# CMD dotnet /Users/zaid/RiderProjects/TestWebApp/TestWebApp/bin/Debug/net5.0/TestWebApp.dll
 
 # Build runtime image
 FROM mcr.microsoft.com/dotnet/aspnet:5.0

@@ -24,13 +24,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a2d88a9-1e52-4901-9f8d-226930b63cb9" name="Default Changelist" comment="remove test project">
-      <change afterPath="$PROJECT_DIR$/WebAppUnitTests/UnitTest1.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebAppUnitTests/WebAppUnitTests.csproj" afterDir="false" />
+    <list default="true" id="1a2d88a9-1e52-4901-9f8d-226930b63cb9" name="Default Changelist" comment="Add Unit Tests">
+      <change afterPath="$PROJECT_DIR$/TestWebApp/Stylecop.ruleset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestWebApp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestWebApp/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestWebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestWebApp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TestWebApp/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TestWebApp/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestWebApp.sln" beforeDir="false" afterPath="$PROJECT_DIR$/TestWebApp.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestWebApp/Controllers/ValueController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestWebApp/Controllers/ValueController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestWebApp/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/TestWebApp/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestWebApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestWebApp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestWebApp/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TestWebApp/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestWebApp/TestWebApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TestWebApp/TestWebApp.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,17 +48,21 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/TestWebApp/Controllers/ValueControllers.cs" />
-        <option value="$PROJECT_DIR$/TestWebApp/Controllers/ValueController.cs" />
-        <option value="$PROJECT_DIR$/TestWebApp/Startup.cs" />
         <option value="$PROJECT_DIR$/TestWebApp/.dockerignore" />
-        <option value="$PROJECT_DIR$/TestWebApp/Dockerfile" />
         <option value="$PROJECT_DIR$/TestWebApp/.gitignore" />
         <option value="$PROJECT_DIR$/TestWebApp/Tests/ValueControllerTest.cs" />
         <option value="$PROJECT_DIR$/TestWebApp.UnitTests/TestWebApp.UnitTests.csproj" />
         <option value="$PROJECT_DIR$/TestWebApp.UnitTests/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/TestProject1/Tests.cs" />
-        <option value="$PROJECT_DIR$/WebAppUnitTests/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/WebAppUnitTests/WebAppUnitTests.csproj" />
+        <option value="$PROJECT_DIR$/WebAppUnitTests/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/TestWebApp/Dockerfile" />
+        <option value="$PROJECT_DIR$/TestWebApp/.editorconfig" />
+        <option value="$PROJECT_DIR$/TestWebApp/TestWebApp.csproj" />
+        <option value="$PROJECT_DIR$/TestWebApp/Program.cs" />
+        <option value="$PROJECT_DIR$/TestWebApp/Startup.cs" />
+        <option value="$PROJECT_DIR$/TestWebApp/Controllers/ValueController.cs" />
+        <option value="$PROJECT_DIR$/TestWebApp/Stylecop.ruleset" />
       </list>
     </option>
   </component>
@@ -71,7 +78,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected=".NET Project.TestWebApp.UnitTests">
+  <component name="RunManager" selected=".NET Launch Settings Profile.TestWebApp">
     <configuration name="TestWebApp.UnitTests" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -197,6 +204,10 @@
       <workItem from="1643369379056" duration="592000" />
       <workItem from="1643372583406" duration="2639000" />
       <workItem from="1643375859808" duration="498000" />
+      <workItem from="1643376391186" duration="2084000" />
+      <workItem from="1643712250030" duration="10000" />
+      <workItem from="1643712296533" duration="552000" />
+      <workItem from="1643712898476" duration="812000" />
     </task>
     <task id="LOCAL-00001" summary="Add Unit Tests">
       <created>1643373597006</created>
@@ -219,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643375950604</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Unit Tests">
+      <created>1643376542218</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1643376542218</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,10 +548,10 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Add Unit Tests" />
     <MESSAGE value="Make unit test fail" />
     <MESSAGE value="remove test project" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove test project" />
+    <MESSAGE value="Add Unit Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Unit Tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="678" y="441" key="#Path_mapping" timestamp="1643021358979">
@@ -553,22 +571,22 @@
     </state>
     <state x="575" y="214" key="Github.UntrackedFilesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1643369424116" />
     <state x="575" y="234" key="Github.UntrackedFilesDialog/0.25.1680.1025@0.25.1680.1025" timestamp="1643368791494" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1643375834885">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1643712243544">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1643375834885" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1643375834884">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1643712243544" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1643712243540">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1643375834884" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1643375834883">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1643712243540" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1643712243536">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1643375834883" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1643375834884">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1643712243536" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1643712243541">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1643375834884" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1643712243541" />
     <state x="440" y="261" key="Rider.ProjectTemplateDialog.Size" timestamp="1643376232360">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -581,10 +599,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="349" y="161" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1643369394464" />
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1643375952769">
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1643376544566">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1643375952769" />
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1643376544566" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1643118378890">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
