@@ -10,7 +10,7 @@ namespace TestWebApp.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> GetValues()
         {
-            return new[] { "a", "b" };
+            return new[] { "a", "b"};
         }
     }
 }

@@ -24,9 +24,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a2d88a9-1e52-4901-9f8d-226930b63cb9" name="Default Changelist" comment="Add Stylecop linter">
-      <change beforePath="$PROJECT_DIR$/WebAppUnitTests/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebAppUnitTests/UnitTest1.cs" afterDir="false" />
-    </list>
+    <list default="true" id="1a2d88a9-1e52-4901-9f8d-226930b63cb9" name="Default Changelist" comment="Add Stylecop linter" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -200,7 +198,7 @@
       <workItem from="1643712250030" duration="10000" />
       <workItem from="1643712296533" duration="552000" />
       <workItem from="1643712898476" duration="812000" />
-      <workItem from="1643713825144" duration="323000" />
+      <workItem from="1643713825144" duration="445000" />
     </task>
     <task id="LOCAL-00001" summary="Add Unit Tests">
       <created>1643373597006</created>
@@ -237,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643714084479</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add Stylecop linter">
+      <created>1643714163196</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1643714163196</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,10 +605,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="349" y="161" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1643369394464" />
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1643376544566">
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1643714164522">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1643376544566" />
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1643714164522" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1643118378890">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
