@@ -29,7 +29,7 @@ stages:
       - task: DotNetCoreCLI@2
         inputs:
           command: 'test'
-          projects: '**/WebAppUnitTests/*.csproj'
+          projects: '**/*.csproj'
           testRunTitle: 'Unit Test run'
 - stage: Build
   displayName: Build and push stage
